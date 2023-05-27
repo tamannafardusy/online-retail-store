@@ -1,0 +1,233 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Saira', sans-serif;
+}
+  .header{
+      background-color: white;
+      width: 100%;
+      top: 0;
+  }
+
+  .header-logo{
+   margin-left: 44%;
+   margin-bottom: -2%;
+    
+  }
+ .search-box{
+ border: 1.5px solid black;
+  background: white;
+  height: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}  
+.search-box:hover .search-txt{
+  width: 200px;
+  padding: 0px 3px;
+
+}
+.search-txt{
+  border: none;
+  background: none ;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 0px;
+}
+
+.nav-links .links {
+  list-style-type: none;
+  margin-top: -2% ;
+  padding: 12px 14px;
+  overflow: hidden;
+}
+
+.nav-links .links li {
+  margin-left: 3%;
+  float: left;
+}
+
+.nav-links .links li a {
+  display: block;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.nav-links .links li a:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.products-menu{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+  border-radius: 0 0 4px 4px;
+  display: none;
+}
+.products-menu li{
+  background-color:white;
+  color: black;
+  border-bottom: 1px solid white;
+  display: flex;
+  flex-direction:column;
+}
+
+.nav-links .links li .products-menu .clothing .clothings-menu{
+  position: absolute;
+  left: 20;
+  padding: 0;
+  margin-top: 55px;
+  background-color: cornsilk;
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  flex-direction:column;
+}
+.nav-links .links li .products-menu .men .mens-menu{
+  position: absolute;
+  padding: 0;
+  margin-top: 55px;
+  background-color: cornsilk;
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  flex-direction:column;
+}
+.nav-links .links li .products-menu .unisex .unisex-menu{
+  position: absolute;
+  padding: 0;
+  margin-left: 140px;
+  margin-top: -55px;
+  background-color: cornsilk;
+  border: 1px solid black;
+  border-radius: 0 0 4px 4px;
+  display: none;
+}
+
+.nav-links .links li:hover .products-menu{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  flex-direction:column;
+}
+.clothing p{
+  color : rgb(105, 98, 98);
+  font-size: 15px;
+}
+.bag p{
+  color : rgb(105, 98, 98);
+  font-size: 15px;
+}
+.shoe p{
+  color : rgb(105, 98, 98);
+  font-size: 15px;
+}
+.accesories p{
+  color : rgb(105, 98, 98);
+  font-size: 15px;
+}
+.unisex p{
+  color : rgb(105, 98, 98);
+  font-size: 15px;
+}
+.collection p{
+  color : rgb(105, 98, 98);
+  font-size: 15px;
+}
+
+  /* .privacy{
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+}*/
+/*.header{
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+.content1{
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: black;
+    margin: 2px 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+}
+
+.search-button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .subscribe-button{
+      background-color: black;
+      color: white;
+      margin-top: 20px;
+      height: 45px;
+      width: 120px;
+      border: 1px solid white;
+  }
+  .subscribe-button:hover{
+    background-color:white;
+    color: black;
+    transition: 1.5s ease;
+  }
+
+  .footer{
+      background-color:rgb(0, 0, 0);
+      color:white;
+  }
+  .footer-conatainer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 20px;
+      grid-gap: 30px;
+  }
+.social{
+  display: flex;
+ letter-spacing: 10px;
+ color: white;
+ text-decoration: none;
+}
+.icon{
+  color: white;
+  background-color:black;
+  letter-spacing: 10px;
+  padding-left: 8px ;
+  padding-top: 5px;
+  padding-bottom:5px ;
+}
+ .icon:hover{
+  background-color:white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 2px;
+  transition: 1.5s ease;
+} 
+
+  .footer-menu{
+      padding-left: 100px;
+  }
+
+  .footer-menu a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .copy-right{
+      text-align: center;
+      margin-bottom: 15px;
+  }
+  
